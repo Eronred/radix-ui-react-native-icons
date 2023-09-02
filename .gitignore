@@ -3,6 +3,12 @@
 # dependencies
 node_modules/
 
+# Build Artifacts
+/dist
+
+# Logs
+*.log
+
 # Expo
 .expo/
 dist/

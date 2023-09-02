@@ -1,0 +1,22 @@
+{
+  "name": "radix-ui-react-native-icons",
+  "version": "1.0.0",
+  "description": "An easy-to-use and customizable React Native icon library featuring Radix UI icons. Enhance your mobile applications with a wide range of beautifully designed and highly scalable icons.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "radix-ui",
+    "react-native-icons",
+    "icons"
+  ],
+  "author": "erencan",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-native": "^0.72.0"
+  }
+}
