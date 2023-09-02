@@ -1,7 +1,6 @@
 # Radix UI Icon Library for React Native
 
-![cover](./cover.png)
-
+![cover](../cover.png)
 
 ## Introduction
 
