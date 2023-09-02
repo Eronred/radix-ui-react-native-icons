@@ -1,5 +1,5 @@
 import React from "react";
-import { Circle, ClipPath, Defs, G, Path, Rect } from "react-native-svg";
+import { Circle, Path, Rect } from "react-native-svg";
 
 interface IconMap {
   [key: string]: React.ReactElement;

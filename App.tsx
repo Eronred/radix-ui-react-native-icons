@@ -1,7 +1,8 @@
 import React from "react";
 import { StyleSheet, SafeAreaView, View, ScrollView, Text } from "react-native";
 import { icons } from "./src/IconRegistry";
-import { RadixIcon } from 'radix-ui-react-native-icons';
+import { RadixIcon } from "radix-ui-react-native-icons";
+
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
         <View style={styles.row}>
           {Object.keys(icons).map((iconName, index) => (
             <View key={index} style={styles.iconContainer}>
-              <RadixIcon name={iconName} size={20} color="black" />
+              <RadixIcon name={iconName} size={28} color="black" />
             </View>
           ))}
         </View>
@@ -39,6 +40,7 @@ const styles = StyleSheet.create({
   iconContainer: {
     width: "20%",
     alignItems: "center",
+    justifyContent: "center",
     marginBottom: 16,
   },
 });

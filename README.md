@@ -78,6 +78,14 @@ The `RadixIcon` component accepts the following props:
 | `size` | `number` | No       | `24`    | Sets the size of the icon.                          |
 | `color`| `string` | No       | `black` | Sets the color of the icon.                         |
 
+## Get in Touch
+
+If you have any questions, suggestions, or would like to contribute, feel free to reach out:
+
+- **Twitter**: [imeronn](https://twitter.com/imeronn)
+- **Portfolio**: [erencanarica.com](https://erencanarica.com)
+- **Email**: [erencanarica0@gmail.com](mailto:erencanarica0@gmail.com)
+
 ## License
 
 Copyright © 2022-present [WorkOS](https://workos.com/).
