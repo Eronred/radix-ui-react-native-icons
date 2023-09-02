@@ -1,6 +1,7 @@
 import React from "react";
 import Svg from "react-native-svg";
 import { icons } from "./IconRegistry";
+import { View } from "react-native";
 
 interface RadixIconProps {
   name?: string;
@@ -14,7 +15,7 @@ const RadixIcon: React.FC<RadixIconProps> = ({
   color = "black",
 }) => {
   return (
-    <Svg width={size} height={size} viewBox="0 0 24 24" fill={color}>
+    <Svg width={size} height={size} viewBox="0 0 15 15" fill={color}>
       {icons[name]}
     </Svg>
   );
