@@ -1,9 +1,7 @@
 import React from "react";
 import { StyleSheet, SafeAreaView, View, ScrollView, Text } from "react-native";
 import { icons } from "./src/IconRegistry";
-import { RadixIcon } from "radix-ui-react-native-icons";
-
-
+import { RadixIcon } from "./src";
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
@@ -36,11 +34,14 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: "row",
     flexWrap: "wrap",
+    width: "100%",
+    padding: 24,
   },
   iconContainer: {
-    width: "20%",
+    width: 40,
+    margin: 8,
+    height: 40,
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 16,
   },
 });
