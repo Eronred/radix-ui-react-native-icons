@@ -1,1 +1,1 @@
-export { default as RadixIcon } from './RadixIcon';
+export { default as RadixIcon, RadixIconName } from "./RadixIcon";

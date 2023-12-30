@@ -2,8 +2,10 @@ import React from "react";
 import Svg from "react-native-svg";
 import { icons } from "./IconRegistry";
 
+export type RadixIconName = keyof typeof icons;
+
 interface RadixIconProps {
-  name?: keyof typeof icons;
+  name?: RadixIconName;
   size?: number;
   color?: string;
 }
