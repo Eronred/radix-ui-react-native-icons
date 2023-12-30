@@ -1,18 +1,16 @@
 import React from "react";
 import { StyleSheet, SafeAreaView, View, ScrollView, Text } from "react-native";
 import { icons } from "./src/IconRegistry";
-import { RadixIcon } from "./src";
+import { RadixIcon } from 'radix-ui-react-native-icons';
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text
-        style={{
-          padding: 24,
-          fontSize: 24,
-        }}
-      >
+
+      <Text style={styles.titleStyle}>
         Radix UI Icons for React Native
       </Text>
+
       <ScrollView>
         <View style={styles.row}>
           {Object.keys(icons).map((iconName, index) => (
@@ -22,6 +20,7 @@ export default function App() {
           ))}
         </View>
       </ScrollView>
+      
     </SafeAreaView>
   );
 }
@@ -44,4 +43,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  titleStyle: {
+    padding: 24,
+    fontSize: 24,
+  }
 });
